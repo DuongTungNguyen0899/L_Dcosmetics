@@ -1,0 +1,13 @@
+#main {
+    .products-launch {
+        display: flex;
+        top: 0;
+        position: relative;
+        flex: 1;
+        margin-right: 4px;
+        font-size: 0;
+        .products-launch_item {
+            max-width: 50%;
+        }
+    }
+}

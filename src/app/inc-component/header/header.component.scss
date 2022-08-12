@@ -1,4 +1,7 @@
 #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     top: 0;
     .header-container {
         color: #fff;
@@ -67,6 +70,16 @@
                             font-weight: 400;
                         }
                     }
+                }
+            }
+        }
+        .header_menu {
+            ul {
+                display: flex;
+                justify-content: center;
+                li {
+                    padding: 10px;
+                    margin-left: 10px;
                 }
             }
         }
