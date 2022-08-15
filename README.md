@@ -1,3 +1,21 @@
+# Luu y khi up len git
+
+- nhánh làm việc tại nhà "work-home"
+- nhánh làm việc tại cty "master"
+
+# cach dùng GIT
+
+- kiểm tra nhánh "git branch (tên nhánh)"
+- dùng câu lệnh để chuyển đổi nhánh "git checkout (tên nhánh)"
+- dùng câu lệnh để up file lên git
+  - git add .
+  - git commit -m "note lại đã up gì"
+  - git push origin (tên nhánh)
+
+# Tạo component
+
+- ng g c (tên component)
+
 # LDcosmetics
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
