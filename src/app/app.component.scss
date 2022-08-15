@@ -1,0 +1,87 @@
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    top: 0;
+    .header-container {
+        color: #fff;
+        position: relative;
+        z-index: 1;
+        height: 116px;
+        background: transparent;
+        transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+        box-shadow: none;
+        .header-logo {
+            left: 0;
+            right: 0;
+            margin: auto;
+            height: 70%;
+            width: 14.1875rem;
+            position: absolute;
+            top: 0;
+            span {
+                display: block;
+                height: 100%;
+                color: #fff;
+                svg {
+                    width: 100%;
+                    height: 100%;
+                    color: #fff;
+                }
+            }
+        }
+        .header_main-wrapper {
+            ul {
+                display: flex;
+                box-sizing: border-box;
+                align-items: center;
+                height: 100%;
+                justify-content: center;
+                padding-left: 60px;
+                padding-right: 60px;
+                .header_search {
+                    margin-left: 5px;
+                    display: flex;
+                    flex: 1;
+                    button {
+                        padding: 5px;
+                        display: inline-flex;
+                        align-items: center;
+                        border: none;
+                        background: none;
+                        text-align: center;
+                        cursor: pointer;
+                        font-size: 1rem;
+                        letter-spacing: 0.025rem;
+                        line-height: 1.25rem;
+                        font-weight: 400;
+                        svg {
+                            width: 16px;
+                            height: 16px;
+                            fill: currentColor;
+                            text-align: center;
+                            cursor: pointer;
+                        }
+                        span {
+                            display: block;
+                            padding-left: 16px;
+                            font-size: 0.875rem;
+                            letter-spacing: 0.0625rem;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+        .header_menu {
+            ul {
+                display: flex;
+                justify-content: center;
+                li {
+                    padding: 10px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

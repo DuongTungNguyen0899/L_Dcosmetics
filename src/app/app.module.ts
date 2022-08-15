@@ -7,13 +7,19 @@ import { FooterComponent } from './inc-component/footer/footer.component';
 import { HeaderComponent } from './inc-component/header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MainComponent } from './inc-component/main/main.component';
+import { HomeComponent } from './inc-component/home/home.component';
+import { ErrorComponent } from './inc-component/error/error.component';
+import { ProductsComponent } from './inc-component/products/products.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    MainComponent
+    MainComponent,
+    HomeComponent,
+    ErrorComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
